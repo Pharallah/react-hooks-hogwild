@@ -1,6 +1,7 @@
 import React from "react";
 import piggy from "../assets/porco.png";
 
+
 const Nav = () => {
 	return (
 		<div className="navWrapper">
@@ -16,3 +17,14 @@ const Nav = () => {
 };
 
 export default Nav;
+
+
+/*
+App
+|__Nav
+|__Form(add new hogs) STATE
+	|__Filter (greased?) STATE
+	|__Sort (based on name or weight) STATE
+|__Hog Container (Where hogs are displayed)
+	|--Hog Card
+*/
